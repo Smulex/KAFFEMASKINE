@@ -101,7 +101,6 @@ namespace KAFFEMASKINEN
                     case ConsoleKey.D4:
                         Console.Clear();
                         Console.WriteLine("\t1 - Fill with coffe");
-                        Console.WriteLine("\t2 - Fill with tea");
                         switch (Console.ReadKey(true).Key)
                         {
                             case ConsoleKey.D1:

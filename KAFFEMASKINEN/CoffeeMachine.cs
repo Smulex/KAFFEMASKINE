@@ -41,7 +41,7 @@ namespace KAFFEMASKINEN
                 if (tank.Amount >= 330 && department.HasFilter() && department.HasPowder())
                 {
                     tank.Amount -= 330;
-                    s = $"{i + 1} cups brewed. ";
+                    s = $"{i + 1} cups brewed of {department.Powder.GetType().Name.ToLower()}. ";
                 }
                 else if (tank.Amount < 330)
                 {
