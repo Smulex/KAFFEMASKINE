@@ -48,6 +48,7 @@
     <Compile Include="CoffeeMachine.cs" />
     <Compile Include="CookingAppliance.cs" />
     <Compile Include="Department.cs" />
+    <Compile Include="Espresso.cs" />
     <Compile Include="Filter.cs" />
     <Compile Include="Liquid.cs" />
     <Compile Include="Powder.cs" />
